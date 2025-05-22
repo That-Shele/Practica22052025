@@ -14,4 +14,14 @@ public class Operacion {
     public int sumar(int a, int b, int c) {
         return a + b + c;
     }
+
+    public void imprimirNumerosImpares(int a) {
+        if(a%2 == 1) {
+            System.out.println("El número es impar: " + a);
+        }    
+        a--;
+        if(a>0){
+            imprimirNumerosImpares(a);
+        }
+    }
 }

@@ -13,5 +13,7 @@ public class Main {
         // Prueba de la suma con un número negativo
         int resultado4 = operacion.sumar(-1, 10);
         System.out.println("Resultado de la suma con número negativo: " + resultado4);
+
+        operacion.imprimirNumerosImpares(7);
     }
 }
